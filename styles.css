@@ -410,6 +410,17 @@ div.images{
 .icon2:hover{
     opacity: 1;
 }
+audio{
+    background-color:#121212;
+    width: 1rem ;
+    opacity: 0.7;
+    height: 1.5rem;
+    margin-left: 0.5rem;
+    margin-top: 0.3rem;
+}
+audio:hover{
+    opacity: 1;
+} 
 
 
 
