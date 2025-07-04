@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="assets/logo.png">
+    <title>Spotify-Web Player: Music for everyone</title>
+</head>
+
+<body>
+    <div class="main">
+        <!-- heading -->
+        <div class="heading">
+            <div class="first">
+                <div class="images">
+                    <img src="assets/blogo.png" alt="logo">
+                </div>
+                <div class="searchbar">
+                    <div class="magni"><i class="fa-solid fa-magnifying-glass"></i></div>
+                    <div class="inp"><input type="text" placeholder="What do you want to play?" class="inputt"></div>
+                </div>
+            </div>
+            <div class="second">
+                <button class="btn1">Explore premium</button>
+                <div class="install">
+                    <i class="fa-solid fa-arrow-down"></i>
+                    <button class="btn2">Install app</button>
+                </div>
+                <i class="fa-solid fa-bell"></i>
+                <i class="fa-solid fa-user-group"></i>
+            </div>
+        </div>
+        
+        <!-- sidebar -->
+        <div class="sidebar">
+            <div class="navoptions">
+                <div class="lib">
+                    <div class="lefticon">
+                        <img src="assets/library_icon.png" alt="libicon">
+                        <p>Your library</p>
+                    </div>
+                    <div class="plus">
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="box1">
+                        <p class="line1">Create your first playlist</p>
+                        <p class="line2">It's easy we'll help you</p>
+                        <button class="badge">Create playlist</button>
+                    </div>
+                    <div class="box2">
+                        <p class="line1">Let's find some podcast to follow</p>
+                        <p class="line2">We'll keep you updated on new episodes</p>
+                        <button class="badge">Browse podcasts</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+          <!-- maincontent -->
+        <div class="maincontent">
+            <div class="stickynav">
+                <button class="all button">All</button>
+                <button class="music button">Music</button>
+                <button class="podcasts button">Podcasts</button>
+            </div>
+            <h2>Recently played</h2>
+            <div class="cardcontainer">
+                <div class="card">
+                    <img src="assets/card16img.jpeg" alt="cardimg">
+                    <p class="cardname">Meri kahani</p>
+                    <p class="cardinfo">Songs from golden era / Atif aslam..</p>
+                </div>
+
+                <div class="card">
+                    <img src="assets/card15img.jpeg" alt="cardimg">
+                    <p class="cardname">In dino</p>
+                    <p class="cardinfo">All time best songs...</p>
+                </div>
+            </div>
+
+            <h2>Trending now near you</h2>
+            <div class="cardcontainer">
+                <div class="card">
+                    <img src="assets/card2img.jpeg" alt="cardimg">
+                    <p class="cardname">Desi hip hop</p>
+                    <p class="cardinfo">Your daily updates of the most played tracks...</p>
+                </div>
+                <div class="card">
+                    <img src="assets/card3img.jpeg" alt="cardimg">
+                    <p class="cardname">Ghazals</p>
+                    <p class="cardinfo">Your daily updates of the most played tracks...</p>
+                </div>
+                <div class="card">
+                    <img src="assets/card4img.jpeg" alt="cardimg">
+                    <p class="cardname">Top 50 South Indian</p>
+                    <p class="cardinfo">Your daily updates of the most played tracks...</p>
+                </div>
+                <div class="card">
+                    <img src="assets/card5img.jpeg" alt="cardimg">
+                    <p class="cardname">Top Songs Global</p>
+                    <p class="cardinfo">Your daily updates of the most played tracks...</p>
+                </div>
+                <div class="card">
+                    <img src="assets/card6img.jpeg" alt="cardimg">
+                    <p class="cardname">Top Songs India</p>
+                    <p class="cardinfo">Your daily updates of the most played tracks...</p>
+                </div>
+                <div class="card">
+                    <img src="assets/card7img.jpeg" alt="cardimg">
+                    <p class="cardname">Om shanti Om</p>
+                    <p class="cardinfo">Your daily updates on your fav songs...</p>
+                </div>
+            </div>
+                <br>
+                <div class="seedhemaut">
+                    <h2> Seedhe maut </h2>
+                    <div class="cardcontainer">
+                        <div class="card">
+                            <img src="assets/card9img.jpeg" alt="cardimg">
+                            <p class="cardname">Khatta flow </p>
+                            <p class="cardinfo">Best songs from SM...</p>
+                        </div>
+                        <div class="card">
+                            <img src="assets/card10img.jpeg" alt="cardimg">
+                            <p class="cardname">Kshama</p>
+                            <p class="cardinfo">2022 album...</p>
+                        </div>
+                        <div class="card">
+                            <img src="assets/card11img.jpeg" alt="cardimg">
+                            <p class="cardname">Naksha</p>
+                            <p class="cardinfo">2021 album...</p>
+                        </div>
+                        <div class="card">
+                            <img src="assets/card12img.jpeg" alt="cardimg">
+                            <p class="cardname">Bayaan</p>
+                            <p class="cardinfo">2018...</p>
+                        </div>
+                        <div class="card">
+                            <img src="assets/card13img.jpeg" alt="cardimg">
+                            <p class="cardname">Kodak</p>
+                            <p class="cardinfo">seedhe maut ft. king</p>
+                        </div>
+                        <div class="card">
+                            <img src="assets/card14img.jpeg" alt="cardimg">
+                            <p class="cardname">Shutdown</p>
+                            <p class="cardinfo">It's time for diss...</p>
+                        </div>
+                    </div>
+                </div>
+                    <div class="kk">
+                        <h2>K.K (All time best)</h2>
+                        <div class="cardcontainer">
+                            <div class="card">
+                                <img src="assets/cardimg17.jpeg" alt="cardimg">
+                                <p class="cardname">Kya mujhe pyar hai </p>
+                                <p class="cardinfo">Best songs from K.K</p>
+                            </div>
+                            <div class="card">
+                                <img src="assets/cardimg18.jpeg" alt="cardimg">
+                                <p class="cardname">Beete lamhe</p>
+                                <p class="cardinfo">Song.KK,Mithoon</p>
+                            </div>
+                            <div class="card">
+                                <img src="assets/cardimg19.jpeg" alt="cardimg">
+                                <p class="cardname">Zara Sa</p>
+                                <p class="cardinfo">Song.pritam,KK</p>
+                            </div>
+                            <div class="card">
+                                <img src="assets/cardimg20.jpeg" alt="cardimg">
+                                <p class="cardname">Tu hi meri shab hai</p>
+                                <p class="cardinfo">Song.pritam,KK.</p>
+                            </div>
+                            <div class="card">
+                                <img src="assets/cardimg21.jpeg" alt="cardimg">
+                                <p class="cardname">Tu aashqi hai</p>
+                                <p class="cardinfo">Song.kk</p>
+                            </div>
+                            <div class="card">
+                                <img src="assets/cardimg22.jpeg" alt="cardimg">
+                                <p class="cardname">Tum mile</p>
+                                <p class="cardinfo">Song.pritam,KK</p>
+                            </div>
+                        </div>
+                    </div>
+                        <div class="mohit">
+                            <h2>Mohit chauhan</h2>
+                            <div class="cardcontainer">
+                                <div class="card">
+                                    <img src="assets/card23img.jpeg" alt="cardimg">
+                                    <p class="cardname">Tune jo na kaha </p>
+                                    <p class="cardinfo">Best songs from mohit chauhan...</p>
+                                </div>
+                                <div class="card">
+                                    <img src="assets/card24img.jpeg" alt="cardimg">
+                                    <p class="cardname">Kun faya kun</p>
+                                    <p class="cardinfo">Song.Mohit chauhan ft.Ranveer kapoor</p>
+                                </div>
+                                <div class="card">
+                                    <img src="assets/card25img.jpeg" alt="cardimg">
+                                    <p class="cardname">Abhi kuch dino se</p>
+                                    <p class="cardinfo">2010 album...</p>
+                                </div>
+                            </div>
+                    
+                            <div class="space">
+                                <div class="text">
+                                    <ul style="list-style-type:none;">
+                                        <li class="bold">Company</li>
+                                        <li> About us</li>
+                                        <li>Jobs </li>
+                                        <li>For the Record</li>
+                                    </ul>
+                                </div>
+                                <div class="text">
+                                    <ul style="list-style-type:none;">
+                                        <li class="bold">Communities</li>
+                                        <li>For Artists</li>
+                                        <li>Developers</li>
+                                        <li>Advertising</li>
+                                        <li>Investors</li>
+                                        <li>Vendors</li>
+                                    </ul>
+                                </div>
+                                <div class="text">
+                                    <ul style="list-style-type:none;">
+                                        <li class="bold">Useful links</li>
+                                        <li>Support</li>
+                                        <li>Free Mobile App</li>
+                                        <li>Popular by Country</li>
+                                    </ul>
+                                </div>
+                                <div class="text">
+                                    <ul style="list-style-type:none;">
+                                        <li class="bold">Spotify Plans</li>
+                                        <li>Premium Individuals</li>
+                                        <li>Premium Duo</li>
+                                        <li>Premium Student</li>
+                                        <li>Premium Family</li>
+                                        <li>Premium Student</li>
+                                        <li>Spotify free</li>
+
+                                    </ul>
+                                </div>
+                                <div class="footlogo">
+                                    <div class="icons fb">
+                                        <img src="assets/instalogo1.png" alt="insta">
+                                    </div>
+                                    <div class="icons insta">
+                                        <img src="assets/fblogo.png" alt="fb">
+                                    </div>
+                                    <div class="icons twitter">
+                                        <img src="assets/twitter log.png" alt="tweeet">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="last">
+                            <div class="textl">
+                                <div>legal</div>
+                                <div>safety and Privacy Center</div>
+                                <div>Privacy policy</div>
+                                <div>Cookies</div>
+                                <div> About ads</div>
+                                <div> Accessibility</div>
+                            </div>
+                            <div class="logol">
+                                <div> &copy; 2025 Spotify AB </div>
+
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <div class="musicplayer">
+                        <div class="music1">
+                            <img src="assets/card25img.jpeg" alt="123">
+                            <div class="title">
+                                <div class="title1">Abhi kuch dino se</div>
+                                <div class="title2">Mohit chauhan</div>
+                            </div>
+                            
+                            
+                        </div>
+                        <div class="playback">
+                            <div class="player">
+                                <img src="assets/player_icon1.png" alt="pc" class="playericons">
+                                <img src="assets/player_icon2.png" alt="pc" class="playericons">
+                                <img src="assets/player_icon3.png" alt="pc" class="playericons" style="opacity: 1; height: 2rem;">
+                                <img src="assets/player_icon4.png" alt="pc" class="playericons">
+                                <img src="assets/player_icon5.png" alt="pc" class="playericons">
+                            </div>
+                            <div class="playbackbar">
+                                <span class="currtime">00:00</span>
+                                <input type="range" min="0" max="100" step="1" class="progressbar">
+                                <span class="tottime">3:43</span>
+                            </div>
+                        </div>
+                        <div class="music2">
+                            <i class="fa-solid fa-music icon2"></i>
+                            <i class="fa-solid fa-bars icon2"></i>
+                            <i class="fa-solid fa-microphone-lines icon2"></i>
+                            <i class="fa-solid fa-volume-low icon2"></i>
+                            <input type="range" min="0" max="100" step="10" class="vol icon2">
+                            <i class="fa-solid fa-headphones icon2"></i>
+                            <i class="fa-solid fa-expand icon2"></i>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
